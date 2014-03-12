@@ -2,4 +2,4 @@
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 CURRENT_DIR="${DIR##*/}"
-docker build -rm -t=dattlabs/$CURRENT_DIR:latest $DIR/.
+docker build --rm -t=datt/$CURRENT_DIR:latest $DIR/.
