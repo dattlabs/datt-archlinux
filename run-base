@@ -1,4 +1,0 @@
-DIR="$( cd "$( dirname "$0" )" && pwd )"
-CURRENT_DIR="${DIR##*/}"
-
-docker run --rm -i -t -h $CURRENT_DIR --name $CURRENT_DIR datt/$CURRENT_DIR:latest
